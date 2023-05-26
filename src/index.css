@@ -1,13 +1,128 @@
-body {
+/* 全局样式 */
+a,
+abbr,
+acronym,
+address,
+applet,
+audio,
+article big,
+blockquote,
+body,
+caption,
+cite,
+code,
+canvas,
+code dd,
+del,
+dfn,
+div,
+dl,
+dt,
+details em,
+fieldset,
+font,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+header,
+hgroup iframe,
+img,
+ins,
+input,
+kbd,
+label,
+legend,
+li,
+main,
+nav,
+footer,
+figcaption,
+figure,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+section,
+summary table,
+tbody,
+tfoot,
+th,
+thead,
+tr,
+tt,
+textarea,
+ul,
+var,
+video
+
+/*  */
+  {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input,
+textarea {
+
+  word-break: break-all;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/************ Custom Font ************/
+/* @font-face {
+  font-family: Centra;
+  src: url("/font/CentraNo2-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url("/font/CentraNo2-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Centra;
+  src: url("/font/CentraNo2-Book.ttf");
+  font-weight: 400;
+} */
+
+/************ Default Css ************/
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212;
+  color: #fff;
+  font-family: "Centra", sans-serif;
+}
+
+html,
+body {
+  min-width: 320px;
+  scroll-behavior: smooth;
 }

@@ -1,0 +1,150 @@
+.banner-com {
+  width: 100%;
+  height: 800px;
+  padding: 180px 0 100px 0;
+  background-image: url("../../../public/img/banner-bg.png");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner-com .show-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.banner-com .show-box .font-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 48px;
+  z-index: 3;
+}
+
+.banner-com .show-box .font-box .type-com {
+  font-size: 65px;
+}
+
+.banner-com .show-box .font-box .title {
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 8px 10px;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
+.banner-com .show-box .font-box .intro {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  margin-top: 16px;
+}
+
+.banner-com .show-box .font-box .connect {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  cursor: pointer;
+}
+
+.banner-com .show-box .font-box .connect p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+}
+
+.banner-com .show-box .font-box .connect img {
+  width: 34px;
+  height: 34px;
+  margin-left: 12px;
+  transition: margin 0.3s ease-in-out;
+}
+
+.banner-com .show-box .font-box .connect:hover img {
+  margin-left: 24px;
+}
+
+.banner-com .show-box .head-img {
+  animation: updown 3s linear infinite;
+  z-index: 4;
+  width: 40%;
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 431px) {
+  .banner-com {
+    padding: 100px 0 0 0;
+    height: 700px;
+  }
+
+  .banner-com .show-box .font-box {
+    padding: 0 24px;
+    width: 100%;
+  }
+
+  .banner-com .show-box .font-box .type-com {
+    font-size: 36px;
+  }
+
+  .banner-com .show-box .font-box .title {
+    white-space: nowrap;
+  }
+
+  .banner-com .show-box .head-img {
+    width: 70%;
+    height: 70%;
+    margin-top: 195px;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 751px) and (min-width: 432px) {
+  .banner-com .show-box .head-img {
+    object-fit: cover;
+    width: 70%;
+    margin-left: 160px;
+    margin-top: 180px;
+  }
+
+  .banner-com .show-box .font-box .type-com {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 752px) {
+  .banner-com .show-box .font-box {
+    width: 600px;
+  }
+}
