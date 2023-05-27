@@ -122,3 +122,9 @@
 .nav-bar-com .container .choose-box .connect:hover {
   color: #000;
 }
+
+@media screen and (max-width: 431px) {
+  .nav-bar-com {
+    background: rgb(18, 18, 18) !important;
+  }
+}
