@@ -3,6 +3,6 @@ import './index.css'
 
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <div id='projects'>Projects</div>
   )
 }
