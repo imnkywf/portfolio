@@ -1,0 +1,121 @@
+.skills-com {
+  width: 100%;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.skills-com .show-box {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin: 0 auto;
+  margin-top: -60px;
+  max-width: 960px;
+}
+
+.skills-com .show-box .title {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.skills-com .show-box .skill-box {
+  flex-direction: column;
+  width: 100%;
+}
+
+.skills-com .show-box .skill-box .skill-target {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.skills-com .background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: 4;
+}
+
+.skills-com .background-image-left img {
+  width: 500px;
+  object-fit: cover;
+}
+
+.load-com {
+  align-items: center;
+  height: 90%;
+  padding-bottom: 30px;
+}
+
+.load-com p {
+  white-space: nowrap;
+  margin-right: 18px;
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.load {
+  display: flex;
+  align-items: center;
+  height: 90%;
+  width: 100%;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.load::after {
+  content: "";
+  height: 10px;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: -1px;
+  background: linear-gradient(to right, #9f3583, #5830b3);
+}
+
+.html::after {
+  width: 90%;
+}
+
+.node::after {
+  width: 80%;
+
+}
+
+.react::after {
+  width: 88%;
+}
+
+.vue::after {
+  width: 60%;
+
+}
+
+.sql::after {
+  width: 70%;
+
+}
+
+
+
+@media screen and (max-width: 431px) {
+  .skills-com .show-box {
+    padding: 25px 25px;
+    margin: 0 12px;
+  }
+
+  .skills-com .precent {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 751px) and (min-width: 432px) {
+  .skills-com .show-box {
+    padding: 25px 25px;
+    margin: 0 24px;
+  }
+}
