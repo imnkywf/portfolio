@@ -143,7 +143,7 @@
 @media screen and (max-width: 431px) {
   .projects-com .container .choose-box {
     margin: 0 auto;
-    width: 110%;
+    width: 100%;
   }
 
   .projects-com .container .show-box .show-img {
