@@ -1,0 +1,102 @@
+.connect-com {
+  width: 100%;
+  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  padding: 60px 0 200px 0;
+}
+
+.connect-com .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.connect-com .container .contact-img {
+  margin: 0 auto;
+  width: 50%;
+  object-fit: cover;
+}
+
+.connect-com .container .msg-box {
+  margin-left: 88px;
+}
+
+.connect-com .container .msg-box .title {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 60px 0;
+  text-align: center;
+}
+
+.connect-com .container .msg-box .show-msg p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 480px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  color: #fff;
+  padding: 18px 26px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  font-size: 24px;
+  margin-top: 36px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.connect-com .container .msg-box .show-msg span {
+  font-size: 18px;
+  margin-left: 28px;
+}
+
+@media screen and (max-width: 431px) {
+  .connect-com {
+    padding: 60px 0 100px 0;
+  }
+
+  .connect-com .container {
+    flex-direction: column;
+  }
+
+  .connect-com .container .msg-box {
+    margin-left: 0;
+  }
+
+  .connect-com .container .msg-box .title {
+    font-size: 24px;
+  }
+
+  .connect-com .container .msg-box .show-msg p {
+    width: 100%;
+    font-size: 18px;
+    padding: 9px 13px;
+  }
+
+
+
+  .connect-com .container .msg-box .show-msg span {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .connect-com .container {
+    flex-direction: column;
+  }
+
+  .connect-com .container .msg-box {
+    margin-left: 0;
+  }
+
+  .connect-com .container .msg-box .show-msg p {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 752px) {
+  .connect-com {}
+}

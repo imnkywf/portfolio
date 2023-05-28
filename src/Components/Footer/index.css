@@ -1,0 +1,74 @@
+.footer-com {
+  padding-bottom: 50px;
+  background-image: url("../../../public/img/footer-bg.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-com .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-com .container .show-msg {
+  background: #ffffff;
+  border-radius: 55px;
+  color: #121212;
+  padding: 65px 125px;
+  margin: 0 40px;
+  transform: translateY(0);
+  opacity: 0;
+  transition: 0.4s ease-in;
+}
+
+.footer-com .container .show-msg p {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1.2em;
+  font-size: 1.75rem;
+}
+
+.footer-com .container .active {
+  transform: translateY(-50%);
+  opacity: 1;
+}
+
+.footer-com .container .show-info {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 70px;
+}
+
+.footer-com .container .show-info p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #b8b8b8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 431px) {
+  .footer-com .container .show-msg {
+    padding: 45px 35px !important;
+  }
+
+  .footer-com .container .show-msg p {
+    font-size: 1.25rem !important;
+  }
+
+  .footer-com .container .show-info {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 751px) {
+  .footer-com .container .show-msg {
+    padding: 45px 65px;
+    margin: 0 24px;
+  }
+
+  .footer-com .container .show-msg p {
+    font-size: 1.45rem;
+  }
+}
