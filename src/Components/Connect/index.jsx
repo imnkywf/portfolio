@@ -1,12 +1,13 @@
 import React from 'react';
 import './index.css';
 import connectData from '../../data/connect_data';
+import contactImage from '../../Projects_Images/contact-img.svg'
 
 export default function Connect() {
   return (
     <section className="connect-com" id="connect">
       <div className="container">
-        <img className="contact-img" src="/img/contact-img.svg" alt="img load error" />
+        <img className="contact-img" src={contactImage} alt="img load error" />
         <div className="msg-box">
           <div className="title">Get In Touch</div>
           <div className="show-msg">

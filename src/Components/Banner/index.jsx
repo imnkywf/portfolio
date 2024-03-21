@@ -1,5 +1,7 @@
 import React from 'react'
 import './index.css'
+import headImage from '../../Projects_Images/header-img.svg'
+import connectImage from '../../Projects_Images/left.svg'
 
 export default function Banner() {
   return (
@@ -16,11 +18,11 @@ export default function Banner() {
           </p>
           <div className="connect" onClick={() => { window.location.href = 'https://wa.me/6584116262' }}>
             <p>Let&apos;s connect</p>
-            <img src="/img/left.svg" alt="->" />
+            <img src={connectImage} alt="->" />
           </div>
         </div>
 
-        <img className="head-img" src="/img/header-img.svg" alt="Header Img" />
+        <img className="head-img" src={headImage} alt="Header Img" />
       </div>
     </section>
   )
